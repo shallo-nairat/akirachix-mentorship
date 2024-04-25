@@ -1,0 +1,38 @@
+.body{
+    border: solid 6px purple;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    
+}
+.input{
+    width: 500px;
+    padding: 20px 20px;
+    border-radius:30px; 
+    /* border: solid; */
+    font-size: 20px;
+    padding-left:20%;
+
+}
+#button{
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 100%;
+    background-color: rgb(190, 207, 238);
+    border: solid 3px purple;
+
+}
+#goaal{
+    font-size: 30px;
+    /* background-color: rgb(190, 207, 238);
+    border: solid 3px purple;
+    border-radius:20px ;
+     */
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+}

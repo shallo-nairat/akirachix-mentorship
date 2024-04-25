@@ -1,0 +1,88 @@
+nav{flex: 1;
+    text-align: center;
+    margin-left: 100px;
+}
+nav ul{
+   display: inline-block;
+   list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;}
+a{
+        text-decoration: none;
+        color: #0B0202;
+}
+.navbars{
+     display: flex;
+     justify-content: baseline;
+     font-size: 30px;
+     padding-left: 9%;
+     gap: 50px;
+     bo
+    
+
+}
+#button{
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-left: 13%;
+
+}
+#mymentor{
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 6px;
+    width: 200px;
+    height: 40px;
+    
+}
+#image2{
+    border-radius: 5px;
+    margin-top: 13%;
+    margin-right: 10%;
+    width: 400px;
+    h
+}
+#heading{
+    font-size:60px;
+    margin-left: 15%;
+}
+#achievement{
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 6px;
+    width: 200px;
+    height: 40px;
+    
+}
+#goal{
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 6px;
+    width: 200px;
+    height: 40px;
+    
+}
+#to-do{
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 6px;
+    width: 200px;
+    height: 40px;
+    
+}
+#welcome{
+    display: flex;
+    justify-content: baseline;
+    gap: 10%;
+}
+#paragraph{
+    font-size: 20px;
+}
+#button{
+    margin-top: 40%;
+}
