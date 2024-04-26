@@ -1,20 +1,70 @@
- /* .signup{
-    font-size: 20px;
-    padding-left: 150px;
+  .signup{
+    padding-right: 120px;
     padding-top: 70px;
-    border-radius: 3px;
-    border: solid 3px purple;
-    width: 40%;
+   
  }
  #button{
     border-radius: 10px;
     font-size: 20px;
     width: 20%;
-    height: 60%;
+    height: 30%;
  }
- #body{
+  #body{
     padding-left: 20%;
-    padding-top: 5%;
-    width:90%;
-    } 
-  */
+    padding-bottom: 3%;
+    /* width:90%; */
+    }  
+
+  .input{
+   padding: 10px 10px;
+   border-radius:40px; 
+   font-size: 20px;
+   padding-left:20%;
+   border:4px solid purple;
+   border-color:purple;
+   /* box-sizing:border-box; */
+   
+   
+}
+#button{
+   height: 50px;
+   width: 120px;
+   border-radius: 20px;
+   font-size: 20px;
+   margin-left: 50%;
+   background-color: rgb(190, 207, 238);
+   border: solid 3px purple;
+
+}
+#name{
+   background-color: rgb(208, 219, 238);
+
+}
+#lastname{
+   background-color: rgb(208, 219, 238);
+
+}
+#middlename{
+   background-color: rgb(208, 219, 238);
+
+}
+#email{
+   background-color: rgb(208, 219, 238);
+
+}
+#username{
+   background-color: rgb(208, 219, 238);
+
+}
+#password{
+   background-color: rgb(208, 219, 238);
+
+}
+#hiveid{
+   background-color: rgb(208, 219, 238);
+
+}
+#hola{
+   color: rgb(132, 37, 134);
+   padding-right:30% ;
+}

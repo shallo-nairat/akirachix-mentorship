@@ -1,21 +1,16 @@
-nav{flex: 1;
-    text-align: center;
-    margin-left: 100px;
-}
-nav ul{
+
+/* nav ul{
    display: inline-block;
    list-style-type: none;
-}
+} */
 nav ul li{
     display: inline-block;
-    margin-right: 20px;}
-a{
+    margin-right: 20px;
+    margin-left: 200px;
+}
+nav a{
         text-decoration: none;
         color: #0B0202;
-}
-.navbars{
-     font-size: 30px;
-
 }
 #heading{
     font-size: 70px;
@@ -23,12 +18,55 @@ a{
     padding-top: 20px;
 
 }
+.nav{
+    font-size: 40px;
+    display: contents;
+    justify-content:space-around;
+    gap: 50px;
+
+}
 #welcome{
     display: flex;
+    justify-content: space-around;
+    gap: 90px;
 }
 #image2{
     margin-top: 19%;
     gap: 70px;
 }
+.well{
+    display: flex;
+    justify-content: space-evenly;
+}
+#home{
+   border: solid 3px purple;
+   border-radius: 30px;
+   height: 50px;
+   width: 120px;
+   background-color: rgb(208, 215, 227);
 
+}
+#about{
+    border: solid 3px purple;
+    border-radius: 30px;
+    height: 50px;
+    width: 180px; 
+    background-color: rgb(208, 215, 227);
+
+}
+#signup{
+    border: solid 3px purple;
+    border-radius: 30px;
+    height: 50px;
+    width: 180px; 
+    background-color: rgb(208, 215, 227);
+
+}
+#login{
+    border: solid 3px purple;
+    border-radius: 30px;
+    height: 50px;
+    width: 180px;
+    background-color: rgb(208, 215, 227);
+}
 

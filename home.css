@@ -16,10 +16,11 @@ a{
 .navbars{
      display: flex;
      justify-content: baseline;
+     border-radius: 10px;
+
      font-size: 30px;
      padding-left: 9%;
      gap: 50px;
-     bo
     
 
 }
@@ -35,7 +36,7 @@ a{
 #mymentor{
     border: solid 4px purple;
     background-color: rgb(229, 234, 243);
-    border-radius: 6px;
+    border-radius: 10px;
     width: 200px;
     height: 40px;
     
@@ -45,7 +46,7 @@ a{
     margin-top: 13%;
     margin-right: 10%;
     width: 400px;
-    h
+    
 }
 #heading{
     font-size:60px;
@@ -54,7 +55,7 @@ a{
 #achievement{
     border: solid 4px purple;
     background-color: rgb(229, 234, 243);
-    border-radius: 6px;
+    border-radius: 20px;
     width: 200px;
     height: 40px;
     
@@ -62,7 +63,7 @@ a{
 #goal{
     border: solid 4px purple;
     background-color: rgb(229, 234, 243);
-    border-radius: 6px;
+    border-radius: 20px;
     width: 200px;
     height: 40px;
     
@@ -70,7 +71,7 @@ a{
 #to-do{
     border: solid 4px purple;
     background-color: rgb(229, 234, 243);
-    border-radius: 6px;
+    border-radius: 20px;
     width: 200px;
     height: 40px;
     
@@ -85,4 +86,9 @@ a{
 }
 #button{
     margin-top: 40%;
+    background-color: rgb(210, 218, 233);
+    border: solid 4px purple;
+    border-radius: 20px;
+
+
 }
