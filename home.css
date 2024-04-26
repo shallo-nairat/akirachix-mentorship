@@ -21,7 +21,12 @@ a{
      font-size: 30px;
      padding-left: 9%;
      gap: 50px;
+     margin-bottom: 10px;
     
+
+}
+#body{
+    background-color: rgb(215, 221, 232);
 
 }
 #button{
@@ -30,7 +35,7 @@ a{
     border-radius: 10px;
     font-size: 20px;
     margin-left: 100px;
-    margin-left: 13%;
+    margin-left: 10%;
 
 }
 #mymentor{
@@ -43,14 +48,24 @@ a{
 }
 #image2{
     border-radius: 5px;
-    margin-top: 13%;
+    margin-top: 10%;
     margin-right: 10%;
-    width: 400px;
+    width: 450px;
+    margin-top: 22%;
     
+}
+#logo{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    /* margin-bottom: 10px; */
+    /* margin-right: 10%; */
+    /* margin-bottom: 20px; */
 }
 #heading{
     font-size:60px;
     margin-left: 15%;
+    margin-top: 5%;
 }
 #achievement{
     border: solid 4px purple;
@@ -79,16 +94,21 @@ a{
 #welcome{
     display: flex;
     justify-content: baseline;
-    gap: 10%;
+    gap: 15%;
+    margin-bottom: 5%;
+    
 }
 #paragraph{
     font-size: 20px;
+
 }
 #button{
-    margin-top: 40%;
+    margin-top: 20%;
     background-color: rgb(210, 218, 233);
     border: solid 4px purple;
     border-radius: 20px;
-
+    /* margin-right:20%; */
+    padding-right: px;
+    /* margin-right: 120px; */
 
 }

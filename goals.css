@@ -1,7 +1,10 @@
+
 .body{
     border: solid 6px purple;
     margin-left: 20%;
     margin-right: 20%;
+    margin-top: 6%;
+    background-color: rgb(215, 221, 232);
 
     
 }
@@ -19,12 +22,11 @@
     width: 120px;
     border-radius: 20px;
     font-size: 20px;
-    margin-left: 100%;
     background-color: rgb(190, 207, 238);
     border: solid 3px purple;
 
 }
-#goaal{
+#goal{
     font-size: 30px;
     /* background-color: rgb(190, 207, 238);
     border: solid 3px purple;
@@ -35,4 +37,5 @@
     border-radius: 20px;
     width: 200px;
     height: 40px;
+    text-align: center;
 }

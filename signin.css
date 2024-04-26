@@ -1,6 +1,7 @@
 .signup{
-    padding-right: 120px;
-    padding-top: 70px;
+    padding-right: 20px;
+    padding-top: 250px;
+
    
  }
  #button{
@@ -13,6 +14,8 @@
     padding-left: 20%;
     padding-bottom: 3%;
     width:50%;
+    background-color: rgb(215, 221, 232);
+    font: 1em sans-serif;
     }  
 
   .input{
@@ -31,7 +34,7 @@
    width: 120px;
    border-radius: 20px;
    font-size: 20px;
-   margin-left: 50%;
+   margin-left: 10%;
    background-color: rgb(190, 207, 238);
    border: solid 3px purple;
 
@@ -52,6 +55,9 @@
 }
 #forgotPassword{
    background-color: rgb(208, 219, 238);
+
+}
+#account{
 
 }
 

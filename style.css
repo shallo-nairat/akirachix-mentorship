@@ -16,6 +16,7 @@ nav a{
     font-size: 70px;
     padding-left: 100px;
     padding-top: 20px;
+    margin-top: 32%;
 
 }
 .nav{
@@ -31,7 +32,7 @@ nav a{
     gap: 90px;
 }
 #image2{
-    margin-top: 19%;
+    margin-top: 31%;
     gap: 70px;
 }
 .well{
@@ -72,4 +73,14 @@ nav a{
     background-color: rgb(208, 215, 227);
     text-align: center;
 }
+@media screen  and(min-width:200px) and (max-width:400px){
+    .nav{
+        font-size: 10px;
+        display: contents;
+        justify-content:space-around;
+        gap: 50px;
+    
+    }
+    
 
+}
