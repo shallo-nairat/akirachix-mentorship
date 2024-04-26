@@ -1,8 +1,8 @@
 
-/* nav ul{
+nav ul{
    display: inline-block;
    list-style-type: none;
-} */
+}
 nav ul li{
     display: inline-block;
     margin-right: 20px;
@@ -44,6 +44,7 @@ nav a{
    height: 50px;
    width: 120px;
    background-color: rgb(208, 215, 227);
+   text-align: center;
 
 }
 #about{
@@ -52,6 +53,7 @@ nav a{
     height: 50px;
     width: 180px; 
     background-color: rgb(208, 215, 227);
+    text-align: center;
 
 }
 #signup{
@@ -60,7 +62,7 @@ nav a{
     height: 50px;
     width: 180px; 
     background-color: rgb(208, 215, 227);
-
+     text-align: center;
 }
 #login{
     border: solid 3px purple;
@@ -68,5 +70,6 @@ nav a{
     height: 50px;
     width: 180px;
     background-color: rgb(208, 215, 227);
+    text-align: center;
 }
 
