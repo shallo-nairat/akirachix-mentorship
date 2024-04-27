@@ -1,12 +1,18 @@
 
-.body{
-    border: solid 6px purple;
+body{
+    /* border: solid 6px purple;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 6%;
+    margin-top: 6%; */
     background-color: rgb(215, 221, 232);
 
     
+}
+#logo{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    margin-top: -2%;
 }
 .input{
     width: 500px;
@@ -38,4 +44,104 @@
     width: 200px;
     height: 40px;
     text-align: center;
+}
+nav{flex: 1;
+    text-align: center;
+    margin-left: 100px;
+}
+nav ul{
+   display: inline-block;
+   list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;}
+a{
+        text-decoration: none;
+        color: #0B0202;
+}
+.navbars{
+     display: flex;
+     justify-content: baseline;
+     border-radius: 10px;
+
+     font-size: 20px;
+     padding-left: 9%;
+     gap: 50px;
+     margin-bottom: 10px;
+    
+
+}
+#achievement{
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    
+}
+#goal{
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+.input{
+    width: 500px;
+    padding: 20px 20px;
+    border-radius:30px; 
+    /* border: solid; */
+    font-size: 20px;
+    padding-left:30%;
+
+}
+#button{
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(190, 207, 238);
+    border: solid 3px purple;
+
+}
+#mymentor{
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    
+}
+#achievement{
+    font-size: 20px;
+    /* background-color: rgb(190, 207, 238);
+    border: solid 3px purple;
+    border-radius:20px ;
+     */
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+}
+#to-do{
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+}
+.last{
+    display: flex;
+    justify-content:space-evenly;
+    gap:50px;
+    margin-top: 78px;
+    /* margin-top: 10px; */
+    background-color: rgb(188, 143, 212);
+}
+.icons{
+    width: 30px;
+    height: 30px;
 }

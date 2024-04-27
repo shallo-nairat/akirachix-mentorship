@@ -16,9 +16,9 @@ a{
 .navbars{
      display: flex;
      justify-content: baseline;
-     border-radius: 10px;
+     border-radius: 8px;
 
-     font-size: 30px;
+     font-size: 20px;
      padding-left: 9%;
      gap: 50px;
      margin-bottom: 10px;
@@ -43,7 +43,7 @@ a{
     background-color: rgb(229, 234, 243);
     border-radius: 10px;
     width: 200px;
-    height: 40px;
+    height: 30px;
     
 }
 #image2{
@@ -51,13 +51,14 @@ a{
     margin-top: 10%;
     margin-right: 10%;
     width: 450px;
-    margin-top: 22%;
+    margin-top: 11%;
     
 }
 #logo{
     width: 90px;
     height: 90px;
     object-fit: cover;
+    margin-top: -2%;
     /* margin-bottom: 10px; */
     /* margin-right: 10%; */
     /* margin-bottom: 20px; */
@@ -65,14 +66,14 @@ a{
 #heading{
     font-size:60px;
     margin-left: 15%;
-    margin-top: 5%;
+    /* margin-top: %; */
 }
 #achievement{
     border: solid 4px purple;
     background-color: rgb(229, 234, 243);
     border-radius: 20px;
     width: 200px;
-    height: 40px;
+    height: 30px;
     
 }
 #goal{
@@ -80,7 +81,7 @@ a{
     background-color: rgb(229, 234, 243);
     border-radius: 20px;
     width: 200px;
-    height: 40px;
+    height: 30px;
     
 }
 #to-do{
@@ -88,14 +89,14 @@ a{
     background-color: rgb(229, 234, 243);
     border-radius: 20px;
     width: 200px;
-    height: 40px;
+    height: 30px;
     
 }
 #welcome{
     display: flex;
     justify-content: baseline;
     gap: 15%;
-    margin-bottom: 5%;
+    /* margin-bottom: 3%; */
     
 }
 #paragraph{
@@ -111,4 +112,15 @@ a{
     padding-right: px;
     /* margin-right: 120px; */
 
+}
+.last{
+    display: flex;
+    justify-content:space-evenly;
+    gap:50px;
+    margin-top: 110px;
+    background-color: rgb(188, 143, 212);
+}
+.icons{
+    width: 30px;
+    height: 30px;
 }
