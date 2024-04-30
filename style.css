@@ -20,11 +20,11 @@ nav a{
 
 }
 .nav{
-    font-size: 40px;
+    font-size: 25px;
     display: contents;
     justify-content:space-around;
     gap: 50px;
-
+    height: 20px;
 }
 #welcome{
     display: flex;
@@ -42,7 +42,7 @@ nav a{
 #home{
    border: solid 3px purple;
    border-radius: 30px;
-   height: 50px;
+   height: 30px;
    width: 120px;
    background-color: rgb(208, 215, 227);
    text-align: center;
@@ -51,7 +51,7 @@ nav a{
 #about{
     border: solid 3px purple;
     border-radius: 30px;
-    height: 50px;
+    height: 30px;
     width: 180px; 
     background-color: rgb(208, 215, 227);
     text-align: center;
@@ -60,7 +60,7 @@ nav a{
 #signup{
     border: solid 3px purple;
     border-radius: 30px;
-    height: 50px;
+    height: 30px;
     width: 180px; 
     background-color: rgb(208, 215, 227);
      text-align: center;
@@ -68,19 +68,171 @@ nav a{
 #login{
     border: solid 3px purple;
     border-radius: 30px;
-    height: 50px;
+    height: 30px;
     width: 180px;
     background-color: rgb(208, 215, 227);
     text-align: center;
 }
-@media screen  and(min-width:200px) and (max-width:400px){
-    .nav{
-        font-size: 10px;
-        display: contents;
-        justify-content:space-around;
-        gap: 50px;
+@media only  screen  and (min-width:200px) and (max-width:400px){
+    nav ul{
+        display: inline-block; 
+        list-style-type: none;
+     }
+     nav ul li{
+         display: inline-block;
+         margin-right: 0px;
+         margin-left: 0px;
+     }
+     nav a{
+             text-decoration: none;
+             color: #0B0202;
+     }
+     #heading{
+         font-size: 30px;
+         padding-left: 0px;
+         padding-top: 0px;
+         margin-top: 0%;
+     
+     }
+     .nav{
+         font-size: 15px;
+         display: contents;
+         justify-content:space-around;
+         gap: 0px;
+         height:10px;
+     }
+     #welcome{
+         flex-wrap: wrap;
+         justify-content: space-around;
+         gap: 0px;
+     }
+     #image2{
+         margin-top: 1%;
+         gap: 0px;
+         width: 370px;
+     }
+     .well{
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+     }
+     #home{
+        border: solid 3px purple;
+        border-radius: 30px;
+        height: 30px;
+        width: 50px;
+        background-color: rgb(208, 215, 227);
+        text-align: center;
+     
+     }
+     #about{
+         border: solid 3px purple;
+         border-radius: 30px;
+         height: 30px;
+         width: 70px; 
+         background-color: rgb(208, 215, 227);
+         text-align: center;
+     
+     }
+     #signup{
+         border: solid 3px purple;
+         border-radius: 30px;
+         height: 30px;
+         width: 70px; 
+         background-color: rgb(208, 215, 227);
+          text-align: center;
+     }
+     #login{
+         border: solid 3px purple;
+         border-radius: 30px;
+         height: 30px;
+         width: 50px;
+         background-color: rgb(208, 215, 227);
+         text-align: center;
+     }
+   
+}
+@media only  screen  and (min-width:400px) and (max-width:600px){
+
+#login{
+    border: solid 3px purple;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    background-color: rgb(208, 215, 227);
+    text-align: center;
+
+}
+#about{
+    border: solid 3px purple;
+    border-radius: 10px;
+    height: 50px;
+    width: 80px; 
+    background-color: rgb(208, 215, 227);
+    text-align: center;
+
+}
+#signup{
+    border: solid 3px purple;
+    border-radius: 10px;
+    height: 60px;
+    width: 80px; 
+    background-color: rgb(208, 215, 227);
+     text-align: center;
+}
+#home{
+    border: solid 3px purple;
+    border-radius: 10px;
+    height: 40px;
+    width: 70px;
+    background-color: rgb(208, 215, 227);
+    text-align: center;
+ 
+}
+#image2{
+    margin-top: 1%;
+    gap: 0px;
+    width: 300px;
+}
+.well{
+    display:flex;
+    flex-wrap: wrap;
+}
+#heading{
+    font-size: 30px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-top: 0%;
+
+}
+}
+@media only  screen  and (min-width:600px) and (max-width:800px){
+    #image2{
+        margin-top: 1%;
+        gap: 0px;
+        width: 300px;
+    }
+    .well{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    #heading{
+        font-size: 30px;
+        padding-left: 0px;
+        padding-top: 0px;
+        margin-top: 0%;
     
     }
-    
 
+
+}
+@media only  screen  and (min-width:600px) and (max-width:800px){
+    .well{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    #image2{
+        margin-top: 1%;
+        gap: 0px;
+        width: 500px;
+    }
 }

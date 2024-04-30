@@ -1,4 +1,4 @@
-/* .body{
+ .body{
     border: solid 6px purple;
     margin-left: 20%;
     margin-right: 20%;
@@ -8,7 +8,7 @@
 
     
 }
-.input{
+/* .input{
     width: 300px;
     /* padding: 20px 20px; */
     /* border-radius:30px; 
@@ -16,8 +16,9 @@
     /* font-size: 23px; */
     /* padding-left:20%; */
     /* margin-bottom: 5%; */
-    /* margin-top: 3%; */ 
-
+    /* margin-top: 3%; */  */
+            
+    
 body{
     background-color: rgb(215, 221, 232);
 

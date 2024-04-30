@@ -143,4 +143,151 @@ a{
     width: 30px;
     height: 30px;
 }
+@media only  screen  and (min-width:200px) and (max-width:400px){
+    #button{
+        border: solid 4px purple;
+        background-color: rgb(229, 234, 243);
+        border-radius: 20px;
+        height: 50px;
+        width: 90px;
+        font-size: 20px;
+    }
+    body{
+        /* border: solid 6px purple;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 3%; */
+        background-color: rgb(215, 221, 232);
+    
+        
+    }
+    .my-mentor{
+        font-size: 25px;
+        text-align: center;
+    }
+    nav{flex: 1;
+        text-align: center;
+        margin-left: 100px;
+    }
+    nav ul{
+       display: inline-block;
+       list-style-type: none;
+    }
+    nav ul li{
+        display: inline-block;
+        margin-right: 20px;}
+    a{
+            text-decoration: none;
+            color: #0B0202;
+    }
+    .navbars{
+         display: flex;
+         justify-content: baseline;
+         border-radius: 10px;
+    
+         font-size: 20px;
+         padding-left: 9%;
+         gap: 50px;
+         margin-bottom: 10px;
+        
+    
+    }
+    #achievement{
+        border: solid 4px purple;
+        background-color: rgb(229, 234, 243);
+        border-radius: 20px;
+        width: 200px;
+        height: 30px;
+        
+    }
+    #goal{
+        border: solid 4px purple;
+        background-color: rgb(229, 234, 243);
+        border-radius: 20px;
+        width: 200px;
+        height: 30px;
+        
+    }
+    #image{
+        height: 270px;
+        margin-top: 7%;
+        
+        /* width: 250px; */
+    }
+    .input{
+        width: 400px;
+        padding: 20px 20px;
+        border-radius:30px; 
+        /* border: solid; */
+        font-size: 20px;
+        padding-left:20%;
+    
+    }
+    .profile{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 60px;
+        
+    
+    }
+    #word{
+        margin-top: 90px;
+        font-size: 25px;
+    }
+    
+    #button{
+        height: 50px;
+        width: 120px;
+        border-radius: 20px;
+        font-size: 20px;
+        background-color: rgb(190, 207, 238);
+        border: solid 3px purple;
+    
+    }
+    #mymentor{
+        border: solid 4px purple;
+        background-color: rgb(229, 234, 243);
+        border-radius: 20px;
+        width: 200px;
+        height: 30px;
+        
+    }
+    #logo{
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        margin-top: -2%;
+    }
+    #achievement{
+        font-size: 20px;
+        /* background-color: rgb(190, 207, 238);
+        border: solid 3px purple;
+        border-radius:20px ;
+         */
+        border: solid 4px purple;
+        background-color: rgb(229, 234, 243);
+        border-radius: 20px;
+        width: 200px;
+        height: 30px;
+    }
+    #to-do{
+        border: solid 4px purple;
+        background-color: rgb(229, 234, 243);
+        border-radius: 20px;
+        width: 200px;
+        height: 30px;
+        
+    }
+    .last{
+        display: flex;
+        flex-wrap: wrap;
+        gap:50px;
+        margin-top: 239px;
+        background-color: rgb(188, 143, 212);
+    }
+    .icons{
+        width: 30px;
+        height: 30px;
+    } 
 
+}
