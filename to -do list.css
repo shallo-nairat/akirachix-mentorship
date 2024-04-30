@@ -2,8 +2,10 @@
     border: solid 6px purple;
     margin-left: 20%;
     margin-right: 20%;
-    height: 500px;
-    margin-top: 7%;
+    height: 470px;
+    margin-top: 5%;
+    padding: 0px;
+    margin: 0px;
 
 
     
@@ -21,6 +23,7 @@
     
 body{
     background-color: rgb(215, 221, 232);
+    width: 90%;
 
 }
 
@@ -147,7 +150,7 @@ a{
     display: flex;
     justify-content:space-evenly;
     gap:50px;
-    margin-top: 348px;
+    margin-top: 338px;
     background-color: rgb(188, 143, 212);
 }
 .icons{
@@ -271,4 +274,21 @@ a{
     height: 90px;
     object-fit: cover;
     margin-top: -2%;
+}
+@media only  screen  and (min-width:200px) and (max-width:400px){
+    .navbars{
+        flex-wrap: wrap;
+        
+        border-radius: 20px;
+   
+        font-size: 16px;
+        margin-right: 20px;
+        gap: 10px;
+        margin-bottom: 10px;
+       
+   
+   }
+}
+@media only  screen  and (min-width:400px) and (max-width:600px){
+
 }
