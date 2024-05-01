@@ -43,7 +43,7 @@ body{
         font-size: 50px;
     }
     #trevorbook{
-        width: 300px;
+        width: 280px;
        
     }
     .book{
@@ -53,22 +53,23 @@ body{
 }
 @media only  screen  and (min-width:400px) and (max-width:600px){
     #paragraph{
-        font-size: 18px;
+        font-size: 12px;
         font-family: Arial, Helvetica, sans-serif;
+        margin-top: 100px;
     }
     .nyj{
         flex-wrap: wrap;
         justify-content: center;
         gap: 20px;
-        margin-top: 80px;
+        margin-top: 100px;
     }
     #title{
         margin-top: 80px;
         text-align: center;
-        font-size: 50px;
+        font-size: 10px;
     }
     #trevorbook{
-        width: 300px;
+        width: 100px;
        
     }
     .book{
@@ -78,7 +79,7 @@ body{
 }
 @media only  screen  and (min-width:600px) and (max-width:800px){
     #paragraph{
-        font-size: 18px;
+        font-size: 12px;
         font-family: Arial, Helvetica, sans-serif;
     }
     .nyj{
@@ -90,10 +91,10 @@ body{
     #title{
         margin-top: 80px;
         text-align: center;
-        font-size: 50px;
+        font-size: 10px;
     }
     #trevorbook{
-        width: 300px;
+        width: 100px;
        
     }
     .book{
@@ -119,7 +120,7 @@ body{
         font-size: 50px;
     }
     #trevorbook{
-        width: 300px;
+        width: 100px;
        
     }
     .book{
@@ -145,7 +146,7 @@ body{
         font-size: 50px;
     }
     #trevorbook{
-        width: 300px;
+        width: 138px;
        
     }
     .book{

@@ -149,8 +149,8 @@ a{
 .last{
     display: flex;
     justify-content:space-evenly;
-    gap:50px;
-    margin-top: 338px;
+    gap:10px;
+    margin-top: 208px;
     background-color: rgb(188, 143, 212);
 }
 .icons{
@@ -279,16 +279,337 @@ a{
     .navbars{
         flex-wrap: wrap;
         
-        border-radius: 20px;
+        border-radius: 0px;
    
-        font-size: 16px;
+        font-size: 12px;
         margin-right: 20px;
         gap: 10px;
         margin-bottom: 10px;
        
    
    }
+   #achievement{
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    
+}
+#goal{
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 8px;
+    width: 80px;
+    height: 18px;
+    
+}
+.input{
+    width: 500px;
+    padding: 20px 20px;
+    border-radius:30px; 
+    /* border: solid; */
+    font-size: 20px;
+    padding-left:20%;
+
+}
+#button{
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(190, 207, 238);
+    border: solid 3px purple;
+
+}
+#mymentor{
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 10px;
+    width: 80px;
+    height: 18px;
+    
+    
+}
+#achievement{
+    font-size: 14px;
+    /* background-color: rgb(190, 207, 238);
+    border: solid 3px purple;
+    border-radius:20px ;
+     */
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 8px;
+    width: 80px;
+    height: 18px;
+}
+#to-do{
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 8px;
+    width: 80px;
+    height: 18px;
+    
+}
+#logo{
+    width: 50px;
+    height: 90px;
+    object-fit: cover;
+    margin-top: -2%;
+    margin-right: 20px;
+}
+.input{
+    width: 100px;
+    padding: 20px 20px;
+    border-radius:30px; 
+    /* border: solid; */
+    font-size: 20px;
+    /* padding-left:20%; */
+    margin-bottom: 80%;
+    margin-left: 70px;
+
+}
+.last{
+    flex-wrap: wrap;
+    gap:5px;
+    /* margin-bottom: 800px; */
+    background-color: rgb(188, 143, 212);
+}
 }
 @media only  screen  and (min-width:400px) and (max-width:600px){
+    .navbars{
+        flex-wrap: wrap;
+        
+        border-radius: 0px;
+   
+        font-size: 12px;
+        margin-right: 20px;
+        gap: 10px;
+        margin-bottom: 10px;
+       
+   
+   }
+   #achievement{
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    
+}
+#goal{
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 8px;
+    width: 80px;
+    height: 18px;
+    
+}
+.input{
+    width: 500px;
+    padding: 20px 20px;
+    border-radius:30px; 
+    /* border: solid; */
+    font-size: 12px;
+    padding-left:20%;
 
+}
+#button{
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(190, 207, 238);
+    border: solid 3px purple;
+
+}
+#mymentor{
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 10px;
+    width: 80px;
+    height: 18px;
+    
+    
+}
+#achievement{
+    font-size: 14px;
+    /* background-color: rgb(190, 207, 238);
+    border: solid 3px purple;
+    border-radius:20px ;
+     */
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 8px;
+    width: 80px;
+    height: 18px;
+}
+#to-do{
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 8px;
+    width: 80px;
+    height: 18px;
+    
+}
+#logo{
+    width: 50px;
+    height: 90px;
+    object-fit: cover;
+    margin-top: -2%;
+    margin-right: 20px;
+}
+.input{
+    width: 100px;
+    padding: 20px 20px;
+    border-radius:30px; 
+    /* border: solid; */
+    font-size: 20px;
+    /* padding-left:20%; */
+    margin-bottom: 80%;
+    margin-left: 70px;
+
+}
+.last{
+    flex-wrap: wrap;
+    gap:5px;
+    margin-bottom: -10px;
+    /* margin-bottom: 800px; */
+    background-color: rgb(188, 143, 212);
+}
+}
+@media only  screen  and (min-width:600px) and (max-width:800px){
+    .navbars{
+        flex-wrap: wrap;
+        border-radius: 10px;
+   
+        font-size: 20px;
+        padding-left: 9%;
+        gap: 10px;
+        margin-bottom: 60px;
+       
+   
+   } 
+   .input{
+    width: 500px;
+    padding: 20px 20px;
+    border-radius:30px; 
+    /* border: solid; */
+    font-size: 10px;
+    /* padding-left:20%; */
+    margin-bottom: 80%;
+    margin-left: 70px;
+
+}  
+}
+@media only  screen  and (min-width:800px) and (max-width:1024px){
+    .navbars{
+        flex-wrap: wrap;
+        border-radius: 10px;
+   
+        font-size: 20px;
+        padding-left: 7%;
+        gap: 5px;
+        margin-top: 10px;
+       
+   
+   }  
+   .last{
+    flex-wrap: wrap;
+    gap:5px;
+    /* margin-bottom: 800px; */
+    margin-top: -40px;
+    background-color: rgb(188, 143, 212);
+} 
+.input{
+    /* width: 100px;
+    padding: 6px 6px;
+    border-radius:30px; 
+    /* border: solid; */
+    font-size: 20px;
+    /* padding-left:20%; */
+    /* margin-bottom: 80 */
+    margin-left: 70px; 
+}
+
+
+#achievement{
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    
+}
+#goal{
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 8px;
+    width: 80px;
+    height: 18px;
+    
+}
+.input{
+    width: 500px;
+    padding: 20px 20px;
+    border-radius:30px; 
+    /* border: solid; */
+    font-size: 20px;
+    padding-left:20%;
+
+}
+#button{
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(190, 207, 238);
+    border: solid 3px purple;
+
+}
+#mymentor{
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+    
+    
+}
+#achievement{
+    font-size: 14px;
+    /* background-color: rgb(190, 207, 238);
+    border: solid 3px purple;
+    border-radius:20px ;
+     */
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 8px;
+    width: 80px;
+    height: 18px;
+}
+#to-do{
+    border: solid 4px purple;
+    background-color: rgb(229, 234, 243);
+    border-radius: 8px;
+    width: 80px;
+    height: 18px;
+    
+}
+#logo{
+    width: 50px;
+    height: 90px;
+    object-fit: cover;
+    margin-top: -2%;
+    margin-right: 20px;
+}
+}
+@media only  screen  and (min-width:1024px) and (max-width:1400px){
+    .last{
+        flex-wrap: wrap;
+        gap:5px;
+        /* margin-bottom: 800px; */
+        margin-top: 100px;
+        background-color: rgb(188, 143, 212);
+    }   
 }

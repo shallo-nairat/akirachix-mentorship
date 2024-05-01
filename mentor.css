@@ -185,9 +185,9 @@ a{
          flex-wrap: wrap;
          border-radius: 10px;
     
-         font-size: 16px;
-         padding-left: 9%;
-         gap: 10px;
+         font-size: 12px;
+         padding-left: 3%;
+         gap: 8px;
          margin-bottom: 10px;
         
     
@@ -195,22 +195,22 @@ a{
     #achievement{
         border: solid 4px purple;
         background-color: rgb(229, 234, 243);
-        border-radius: 20px;
-        width: 200px;
-        height: 30px;
-        font-size: 16px;
+        border-radius: 8px;
+        width: 80px;
+        height: 10px;
+        font-size: 10px;
         
     }
     #goal{
         border: solid 4px purple;
         background-color: rgb(229, 234, 243);
         border-radius: 20px;
-        width: 200px;
-        height: 30px;
+        width: 80px;
+        height: 18px;
         
     }
     #image{
-        height: 200px;
+        height: 120px;
         margin-top: 7%;
         
         /* width: 250px; */
@@ -232,7 +232,7 @@ a{
     
     }
     #word{
-        margin-top: 90px;
+        margin-top: 10px;
         font-size: 15px;
     }
     
@@ -249,8 +249,8 @@ a{
         border: solid 4px purple;
         background-color: rgb(229, 234, 243);
         border-radius: 20px;
-        width: 200px;
-        height: 30px;
+        width: 80px;
+        height: 18px;
         
     }
     #logo{
@@ -260,7 +260,7 @@ a{
         margin-top: -2%;
     }
     #achievement{
-        font-size: 20px;
+        font-size: 12px;
         /* background-color: rgb(190, 207, 238);
         border: solid 3px purple;
         border-radius:20px ;
@@ -268,22 +268,22 @@ a{
         border: solid 4px purple;
         background-color: rgb(229, 234, 243);
         border-radius: 20px;
-        width: 200px;
-        height: 30px;
+        width: 80px;
+        height: 18px;
     }
     #to-do{
         border: solid 4px purple;
         background-color: rgb(229, 234, 243);
         border-radius: 20px;
-        width: 200px;
-        height: 30px;
+        width: 80px;
+        height: 18px;
         
     }
     .last{
         display: flex;
         flex-wrap: wrap;
-        gap:50px;
-        margin-top: 239px;
+        gap:9px;
+        margin-top: 5px;
         background-color: rgb(188, 143, 212);
     }
     .icons{
@@ -311,7 +311,7 @@ a{
         
     }
     .my-mentor{
-        font-size: 25px;
+        font-size: 13px;
         text-align: center;
     }
     nav{flex: 1;
@@ -358,7 +358,7 @@ a{
         
     }
     #image{
-        height: 200px;
+        height: 120px;
         margin-top: 7%;
         
         /* width: 250px; */
@@ -381,7 +381,7 @@ a{
     }
     #word{
         margin-top: 90px;
-        font-size: 20px;
+        font-size: 11px;
     }
     
     #button{
@@ -432,7 +432,7 @@ a{
         display: flex;
         justify-content:space-evenly;
         gap:50px;
-        margin-top: 239px;
+        margin-top: 99px;
         background-color: rgb(188, 143, 212);
     }
     .icons{
@@ -506,7 +506,7 @@ a{
         
     }
     #image{
-        height: 200px;
+        height: 100px;
         margin-top: 7%;
         
         /* width: 250px; */
@@ -588,4 +588,17 @@ a{
         height: 30px;
 }
 }  
+@media only  screen  and (min-width:600px) and (max-width:800px){
+    .navbars{
+        flex-wrap: wrap;
+        border-radius: 5px;
+   
+        font-size: 15px;
+        padding-left: 0%;
+        gap: 5px;
+        margin-bottom: 10px;
+       
+   
+   }  
+}
 
