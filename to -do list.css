@@ -42,20 +42,7 @@ body{
     border: solid 3px purple;
 
 }
-/* #to-do{
-    font-size: 30px;
-    /* background-color: rgb(190, 207, 238);
-    border: solid 3px purple;
-    border-radius:20px ;
-     */
-    /* border: solid 4px purple;
-    background-color: rgb(218, 223, 231);
-    border-radius: 20px;
-    width: 300px;
-    height: 40px;
-    text-align: center;
-    margin-top: 30%; */
-/* } */ 
+
 nav{flex: 1;
     text-align: center;
     margin-left: 100px;
@@ -71,26 +58,8 @@ a{
         text-decoration: none;
         color: #0B0202;
 }
-.navbars{
-     display: flex;
-     justify-content: baseline;
-     border-radius: 10px;
 
-     font-size: 20px;
-     padding-left: 9%;
-     gap: 50px;
-     margin-bottom: 10px;
-    
 
-}
-#achievement{
-    border: solid 4px purple;
-    background-color: rgb(229, 234, 243);
-    border-radius: 20px;
-    width: 90px;
-    height: 40px;
-    
-}
 #goal{
     border: solid 4px purple;
     background-color: rgb(229, 234, 243);
@@ -150,35 +119,13 @@ a{
     display: flex;
     justify-content:space-evenly;
     gap:10px;
-    margin-top: 208px;
+    margin-top: 337px;
     background-color: rgb(188, 143, 212);
 }
 .icons{
     width: 30px;
     height: 30px;
-}
-
-/* .task5{
-    display: flex;
-
-}
-#viewbutton{
-    width: 120px;
-    height: 70px;
-    border-radius: 40px;
-    background-color: rgb(219, 226, 239);
-    border: solid 3px purple ;
-
-
-}
-#box{
-    width: 200px;
-    height: 50px;
-    border-radius: 20px; 
-}
-
-  */
-      
+}      
 
 nav{flex: 1;
     text-align: center;
@@ -207,14 +154,7 @@ a{
     
 
 }
-#achievement{
-    border: solid 4px purple;
-    background-color: rgb(229, 234, 243);
-    border-radius: 20px;
-    width: 200px;
-    height: 40px;
-    
-}
+
 #goal{
     border: solid 4px purple;
     background-color: rgb(229, 234, 243);
@@ -244,17 +184,13 @@ a{
 #mymentor{
     border: solid 4px purple;
     background-color: rgb(229, 234, 243);
-    border-radius: 10px;
+    border-radius: 20px;
     width: 200px;
     height: 30px;
     
 }
 #achievement{
     font-size: 20px;
-    /* background-color: rgb(190, 207, 238);
-    border: solid 3px purple;
-    border-radius:20px ;
-     */
     border: solid 4px purple;
     background-color: rgb(229, 234, 243);
     border-radius: 20px;
@@ -267,13 +203,6 @@ a{
     border-radius: 20px;
     width: 200px;
     height: 30px;
-    
-}
-#logo{
-    width: 90px;
-    height: 90px;
-    object-fit: cover;
-    margin-top: -2%;
 }
 @media only  screen  and (min-width:200px) and (max-width:400px){
     .navbars{

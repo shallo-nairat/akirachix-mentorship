@@ -227,7 +227,7 @@ a{
     .profile{
         display: flex;
         flex-wrap: wrap;
-        margin-top: 60px;
+        margin-top: 10px;
         
     
     }
@@ -283,7 +283,7 @@ a{
         display: flex;
         flex-wrap: wrap;
         gap:9px;
-        margin-top: 5px;
+        margin-top: 10px;
         background-color: rgb(188, 143, 212);
     }
     .icons{
@@ -432,7 +432,7 @@ a{
         display: flex;
         justify-content:space-evenly;
         gap:50px;
-        margin-top: 99px;
+        margin-top: 80px;
         background-color: rgb(188, 143, 212);
     }
     .icons{
@@ -588,7 +588,7 @@ a{
         height: 30px;
 }
 }  
-@media only  screen  and (min-width:600px) and (max-width:800px){
+@media only  screen  and (min-width:800px) and (max-width:1000px){
     .navbars{
         flex-wrap: wrap;
         border-radius: 5px;
@@ -599,6 +599,13 @@ a{
         margin-bottom: 10px;
        
    
-   }  
+   } 
+   .last{
+    display: flex;
+    justify-content:space-evenly;
+    gap:50px;
+    margin-bottom: 100px;
+    background-color: rgb(188, 143, 212);
+} 
 }
 
